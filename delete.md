@@ -1,10 +1,78 @@
-# Digital Receipt Wallet - Account Deletion
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hesap Silme - Digital Receipt Wallet</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #171a23;
+    --text: #e8e9ee;
+    --muted: #9498a3;
+    --accent: #6c8cff;
+    --border: #262a36;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+  .lang-switch { text-align: right; margin-bottom: 24px; }
+  .lang-switch a {
+    color: var(--muted); text-decoration: none; font-size: 14px;
+    padding: 6px 12px; border: 1px solid var(--border); border-radius: 20px;
+  }
+  .lang-switch a:hover { color: var(--accent); border-color: var(--accent); }
+  h1 { font-size: 26px; margin-bottom: 4px; }
+  .updated { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 18px; margin-top: 32px; color: var(--accent); }
+  ol, ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a.inline { color: var(--accent); }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 24px 28px;
+  }
+  .contact {
+    margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="lang-switch">
+      <a href="delete-account-en.html">English</a>
+    </div>
+    <div class="card">
+      <h1>Hesap Silme</h1>
+      <div class="updated">Son güncelleme: 3 Temmuz 2026</div>
 
-To request deletion of your account and all associated data, 
-email us at: mobinovax@gmail.com
+      <h2>Hesabınızı Nasıl Silersiniz</h2>
+      <p>Digital Receipt Wallet uygulamasında hesabınızı ve ilişkili verilerinizi doğrudan uygulama içinden silebilirsiniz:</p>
+      <ol>
+        <li>Uygulamayı açın ve giriş yapın</li>
+        <li><strong>Ayarlar</strong> ekranına gidin</li>
+        <li>En altta yer alan <strong>"Hesabı Sil"</strong> seçeneğine dokunun</li>
+        <li>Çıkan onay ekranında silme işlemini onaylayın</li>
+      </ol>
 
-Please include "Account Deletion Request" in the subject line.
-We will process your request within 30 days.
+      <h2>Silme Sonrasında Ne Olur</h2>
+      <p>Hesabınız işlemden hemen sonra pasif hale getirilir. 30 gün süreyle bu şekilde kalır; bu süre içinde hesabınıza tekrar giriş yaparsanız hesabınızı geri açabilirsiniz. 30 günün sonunda hesabınız ve ilişkili tüm veriler (fişler, işlemler, profil bilgileri dahil) kalıcı olarak silinir ve geri getirilemez.</p>
 
-All your expense data, receipt images, and profile information 
-will be permanently deleted.
+      <h2>Uygulamaya Erişiminiz Yoksa</h2>
+      <p>Uygulamayı silmiş veya hesabınıza erişiminiz yoksa, hesabınızın silinmesini talep etmek için bize <a class="inline" href="mailto:mobinovax@gmail.com">mobinovax@gmail.com</a> adresinden e-posta gönderebilirsiniz. E-postanızda hesabınızla ilişkili e-posta adresini belirtmeniz talebinizin işlenmesini hızlandıracaktır.</p>
+
+      <div class="contact">
+        Sorularınız için bize ulaşın:
+        <a class="inline" href="mailto:mobinovax@gmail.com">mobinovax@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
